@@ -21,16 +21,16 @@
         <a class="loadRecordsBtn" href="/" role="button">Главная страница</a>
         <form id ="contacts" method="post" class="form-horizontal">
             <p>Логин:<br>
-                <input style="width: 100%;" type="text" class="form-control" id="form_login" name="login" placeholder="Логин">
+                <input style="width: 100%;" type="text" id="form_login" name="login" placeholder="Логин">
             </p>
             <p>Пароль:<br>
-                <input style="width: 100%;" type="password" class="form-control" id="form_password" name="password" placeholder="Пароль">
+                <input style="width: 100%;" type="password" id="form_password" name="password" placeholder="Пароль">
             </p>
             <p>Ф.И.О.<br>
-                <input style="width: 100%;" type="text" class="form-control" id="form_fio" name="fio" placeholder="Ф.И.О.">
+                <input style="width: 100%;" type="text" id="form_fio" name="fio" placeholder="Ф.И.О.">
             </p>
             <p>Email<br>
-                <input style="width: 100%;" type="email" class="form-control" id="form_email" name="email" placeholder="Email">
+                <input style="width: 100%;" type="email" id="form_email" name="email" placeholder="Email">
             </p>
             <input style="margin-top: 10px;" id="submit" type="submit" value="Отправить">
         </form>

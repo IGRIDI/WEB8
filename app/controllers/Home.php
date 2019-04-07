@@ -289,6 +289,7 @@ class Home extends Controller
             echo '</div>';
             echo '<div class="blog-comments">';
             if(!empty($blog->Comments)) {
+                echo '<h2 style="text-align: left; font-size: 18px;">Комментарии:</h2>';
                 foreach ($blog->Comments as $comment) {
                     echo '<div class="blog-comment">';
                     echo '<div class="blog-comment-text">';
@@ -296,7 +297,8 @@ class Home extends Controller
                     echo '</div>';
                     echo '<div class="clearfix"></div>';
                     echo '<div class="blog-comment-footer">';
-                    echo "$comment->Fio $comment->Date";
+                    echo '<p><span style="font-weight: bold;">Пользователь: </span>' . $comment->Fio . '</p>';
+                    echo '<p><span style="font-weight: bold;">Дата: </span>' . $comment->Date . '</p>';
                     echo '</div>';
                     echo '</div>';
                 }

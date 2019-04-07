@@ -21,12 +21,12 @@
         <a class="loadRecordsBtn" href="/" role="button">Главная страница</a>
         <form id ="contacts" method="post" class="form-horizontal">
             <p>Логин:<br>
-                <input style="width: 100%;" type="text" class="form-control" id="form_login" name="login" placeholder="Логин">
+                <input style="width: 100%;" type="text" id="form_login" name="login" placeholder="Логин">
             </p>
             <p>Пароль:<br>
-                <input style="width: 100%;" type="password" class="form-control" id="form_password" name="password" placeholder="Пароль">
+                <input style="width: 100%;" type="password" id="form_password" name="password" placeholder="Пароль">
             </p>
-            <input style="margin-top: 10px;" id="submit" class="form-control btn btn-block btn-primary" type="submit" value="Войти">
+            <input style="margin-top: 10px;" id="submit" type="submit" value="Войти">
             <a class="loadRecordsBtn" href="/register" role="button" style="margin-top: 110px;">Регистрация</a>
         </form>
         <?php
